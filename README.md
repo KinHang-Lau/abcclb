@@ -51,3 +51,9 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+        
+import ToggleButtonSetting from './toggle-button-setting';
+export enum Themes {
+  Night = 'night',
+  Default = 'default'
+}
